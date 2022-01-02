@@ -6,7 +6,7 @@ class Solution {
            return 1;
        
        M%=N;
-       int ans = M+K-1;
+       int ans = K+M-1;
        
        if(ans==N)
            return ans;
