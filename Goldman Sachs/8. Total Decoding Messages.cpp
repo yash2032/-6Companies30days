@@ -1,7 +1,8 @@
 int CountWays(string digits){
 		    
-		    int n=digits.length();
-		    int count[n+1]; 
+	    int n=digits.length();
+            int count[n+1]; 
+	
             count[0] = 1;
             count[1] = 1;
     
